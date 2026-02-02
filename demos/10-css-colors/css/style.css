@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+    font-family: serif;
+}
+
+#p-1 {
+    color:#e5599a;
+}
+#p-2 {
+    background-color:#c3c3f8;
+    color:#056f96;
+}
+#s-1 {
+    color: #64081d;
+}
+#s-2 {
+    background-color: #ebd191;
+    color: #740b24;
+}
