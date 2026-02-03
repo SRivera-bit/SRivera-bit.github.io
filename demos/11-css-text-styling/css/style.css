@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+    font-family: serif;
+}
+
+#s-1 {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#s-2 {
+    font-style: italic;
+}
+
+#p-1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+#a-1 {
+    text-decoration: none;
+    color: rgb(108, 214, 33);
+    cursor: not-allowed;
+}
