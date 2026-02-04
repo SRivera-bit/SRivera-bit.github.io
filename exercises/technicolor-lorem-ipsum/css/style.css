@@ -8,25 +8,25 @@ body {
 }
 
 #p-1 {
-    background-color: rgb(254, 251, 49);
-    color: rgb(194, 154, 85);
+    background-color: #fefb31;
+    color: #c29a55;
 }
 #s-1 {
-    background-color: rgb(240, 120, 23);
+    background-color: #f07817;
     color: rgb(162, 252, 252);
 }
 #s-2 {
-    background-color: rgb(137, 59, 10);
+    background-color: #893b0a;
     color: rgb(253, 231, 166);
 }
 
 #p-2 {
-    background-color: rgb(13, 150, 155);
-    color: rgb(0, 255, 195);
+    background-color: #0d969b;
+    color: #00ffc3;
 }
 #s-3 {
-    background-color: rgb(109, 243, 118);
-    color: rgb(19, 141, 78);
+    background-color: #6df376;
+    color: #138d4e;
 }
 #s-4 {
     background-color: rgb(191, 21, 21);
@@ -38,40 +38,40 @@ body {
 }
 
 #p-3 {
-    background-color: rgb(237, 49, 118);
-    color: rgb(250, 215, 236);
+    background-color: #ed3176;
+    color: #fad7ec;
 }
 #s-6 {
-    background-color: rgb(215, 171, 245);
-    color: rgb(79, 101, 211);
+    background-color: #d7abf5;
+    color: #4f65d3;
 }
 #s-7 {
-    background-color: rgb(244, 243, 203);
-    color: rgb(195, 154, 66);
+    background-color: #f4f3cb;
+    color: #c39a42;
 }
 
 #p-4 {
-    background-color: blue;
-    color: rgb(61, 200, 200);
+    background-color: #0000ff;
+    color: #3dc8c8;
 }
 #s-8 {
-    background-color: rgb(248, 246, 243);
+    background-color: #f8f6f3;
     color: rgb(233, 137, 112);
 }
 #s-9 {
-    background-color: rgb(105, 194, 238);
-    color: rgb(97, 70, 171);
+    background-color: #69c2ee;
+    color: #6146ab;
 }
 
 #p-5 {
-    background-color: blueviolet;
-    color: rgb(219, 140, 253);
+    background-color: #8a2be2;
+    color: #db8cfd;
 }
 #s-10 {
-    background-color: rgb(229, 38, 38);
-    color: rgb(244, 210, 151);
+    background-color: #e52626;
+    color: #f4d297;
 }
 #s-11 {
-    background-color: rgb(245, 59, 224);
-    color: rgb(115, 15, 158);
+    background-color: #f53be0;
+    color: #730f9e;
 }
