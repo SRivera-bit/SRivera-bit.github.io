@@ -3,13 +3,13 @@
 }
 
 body {
-    background-color: rgb(216, 247, 234);
+    background-image: url("../images/image1.avif");
     margin: 30px;
     font-family: sserif;
 }
 
 .color-palette {
-    box-shadow: 6px 6px 12px #989898;
+    box-shadow: 6px 6px 12px #91e9f1;
     background-color: white;
     text-align: center;
     margin: 50px; 
