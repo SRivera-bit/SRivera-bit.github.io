@@ -3,6 +3,7 @@
 }
 
 body {
+    background-color: rgb(69, 57, 57);
     margin: 100px;
     font-family: serif;
 }
@@ -12,9 +13,10 @@ body {
 }
 
 #layout {
+    background-color: rgb(245, 234, 227);
     max-width: 1000;
     margin: 24px auto;
-    padding-bottom: 24px;
+    padding: 50px;
 }
 
 #heading {
@@ -99,7 +101,7 @@ body {
     display: flex;
 }
 .side-by-side .text-container {
-    background-color: skyblue;
+    background-color: rgb(190, 208, 249);
     display: flex;
     flex-direction: column;
     justify-content: center;
