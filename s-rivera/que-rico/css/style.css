@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 10px;
+    font-family: serif;
+}
+
+.header {
+    background-color: black;
+    border: 5px dotted red;
+    width: 70%;
+    margin: 10px auto;
+    border: 10px dotted red;
+    align-items: center;
+    display: flex;
+}
+#h-word {
+    justify-content: space-between;
+}
+
+#logo {
+    width: 130px;
+    margin-left: 50px;
+}
+
+.menu {
+    margin-left: 15px;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    align-items: flex-end;
+}
+
+#nav-5 {
+    margin-left: 600px;
+}
+
+#nav-6 {
+        background-color: red;
+        border-radius: 35px;
+        color: white;
+        display: inline-block;
+        padding: 15px 25px;
+}
