@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #b8b8b8;
+    margin: 0px;
+    font-family: sans-serif;
+    
+}
+#container {
+    background-color: rgb(101, 100, 99);
+    margin-left: 800px;
+    width: 500px;
+    min-height: 100vh;
+    font-size: 0px;
+}
+.block {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+.pinky {
+    background-color: #ed3176;
+    border: 15px inset rgb(138, 35, 93);
+    height: 100px;
+}
+.sunny {
+    background-color: #fefb31;
+    border: 15px inset rgb(185, 122, 40);
+    height: 100px;
+}
+.ice {
+    background-color: #40dcdc;
+    border: 15px inset rgb(35, 135, 138);
+    height: 100px;
+}
+.frozone {
+    background-color: #0000ff;
+    border: 15px inset rgb(24, 20, 102);
+    height: 100px;
+}
+.moss {
+    background-color: #6df376;
+    border: 15px inset rgb(38, 158, 68);
+    height: 100px;
+}
