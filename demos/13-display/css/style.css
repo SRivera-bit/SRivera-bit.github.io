@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+    font-family: sans-serif;
+}
+
+span {
+    background-color: rgb(255, 160, 219);
+    display: block;
+}
+
+div {
+    background-color: rgb(116, 253, 253);
+    display: inline-block;
+    width: 200px;
+    margin: 12px;
+    padding: 12px;
+}
+
+p {
+    background-color: rgb(238, 145, 145);
+    width: 200px;
+}
+
+#media-and-text,
+#three-collumns {
+    background-color: rgb(212, 247, 181);
+    display: block;
+    width: auto;
+    text-align: center;
+}
+
+#media {
+    width: 150px;
+    vertical-align: middle;
+}
+
+#text {
+    vertical-align: middle;
+    background-color: transparent;
+    width: 150px;
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.collumn {
+    background-color: transparent;
+    width: 150px;
+    display: inline-block;
+}
