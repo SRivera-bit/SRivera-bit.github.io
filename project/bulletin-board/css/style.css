@@ -16,13 +16,13 @@
     height: 250px;
     display: inline-block;
     vertical-align: top;
-    box-shadow: 6px 6px 6px rgb(110, 90, 53);
+    box-shadow: 6px 6px 4px rgb(120, 104, 72);
 }
 
-.white {
+.pink {
     margin-left: 200px;
     margin-right: 100px;
-    background-color: white;
+    background-color: rgb(253, 199, 199);
 }
 #media {
     margin: -24px;
@@ -37,7 +37,7 @@
 }
 .sea-green {
     margin: 50px;
-    font-size: 20px;
+    font-size: 25px;
     background-color: rgb(97, 255, 200);
 }
 
