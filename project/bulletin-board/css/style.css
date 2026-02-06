@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Mynerve&family=Playwrite+NZ+Basic+Guides&display=swap');
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+
+.post-it {
+    font-family: "Mynerve", cursive;
+    margin: 24px;
+    padding: 24px;
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    vertical-align: top;
+    box-shadow: 6px 6px 6px rgb(110, 90, 53);
+}
+
+.white {
+    margin-left: 200px;
+    margin-right: 100px;
+    background-color: white;
+}
+#media {
+    margin: -24px;
+    border: 10px solid white;
+    width: 250px;
+}
+.blue {
+    margin-left: 250px;
+    padding: 10px;
+    font-size: 30px;
+    background-color: rgb(103, 242, 242);
+}
+.sea-green {
+    margin: 50px;
+    font-size: 20px;
+    background-color: rgb(97, 255, 200);
+}
+
+.green {
+    margin: 250px;
+    padding: 50px;
+    background-color: rgb(113, 246, 113);
+}
+.purple {
+    margin-left: 50px;
+    padding: 20px;
+    background-color: rgb(210, 168, 250);
+}
+.yellow {
+    margin: 100px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(255, 255, 143);
+}
