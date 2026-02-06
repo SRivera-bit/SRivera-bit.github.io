@@ -7,22 +7,28 @@ body {
     font-family: serif;
 }
 
+.layout {
+    background-color: rgb(101, 100, 99);
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100vh;
+    font-size: 0px;
+}
+
 .header {
     background-color: black;
-    border: 5px dotted red;
-    width: 70%;
-    margin: 10px auto;
     border: 10px dotted red;
     align-items: center;
     display: flex;
 }
 #h-word {
+    margin-top: auto;
     justify-content: space-between;
 }
 
 #logo {
     width: 130px;
-    margin-left: 50px;
 }
 
 .menu {
@@ -30,7 +36,7 @@ body {
     font-size: 24px;
     color: white;
     text-decoration: none;
-    align-items: flex-end;
+    cursor: pointer;
 }
 
 #nav-5 {
@@ -43,4 +49,6 @@ body {
         color: white;
         display: inline-block;
         padding: 15px 25px;
+        margin: auto;
 }
+
