@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -11,12 +12,57 @@ body {
     width: 600px;
     margin: 0px auto;
     text-align: center;
+    font-family: "Delius Swash Caps", cursive;
+    font-size: 30px;
+    padding: 40px;
+}
+
+.centered-column p {
+    font-family: sans-serif;
+    font-size: 24px;
 }
 
 .yellow {
-    background-color: yellow;
+    background-color: rgb(253, 201, 44);
+}
+.centered-column #cereal-pack {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
 }
 
-#cereal-pack {
-    width: 600px;
+.purple {
+    background-color: rgb(142, 9, 172);
+}
+.centered-column #cinnamon {
+    width: 400px;
+}
+
+.red {
+    background-color: rgb(255, 59, 33);
+}
+.centered-column #crunch {
+    width: 400px;
+}
+
+.sunny {
+    background-color: rgb(255, 217, 0);
+}
+.centered-column #berries {
+    width: 400px;
+}
+
+.orange {
+    background-color: orange;
+}
+.centered-column #peanut {
+    width: 400px;
+}
+
+.button {
+    background-color: rgb(142, 9, 172);
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15px;
 }
