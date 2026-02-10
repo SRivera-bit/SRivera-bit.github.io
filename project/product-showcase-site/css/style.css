@@ -12,3 +12,11 @@ body {
     margin: 0px auto;
     text-align: center;
 }
+
+.yellow {
+    background-color: yellow;
+}
+
+#cereal-pack {
+    width: 600px;
+}
