@@ -15,6 +15,7 @@ body {
     font-family: "Delius Swash Caps", cursive;
     font-size: 30px;
     padding: 40px;
+    padding-bottom: 70px;
 }
 
 .centered-column p {
@@ -23,7 +24,9 @@ body {
 }
 
 .yellow {
+    border-bottom: 10px dotted;
     background-color: rgb(253, 201, 44);
+    color: rgb(223, 91, 3);
 }
 .centered-column #cereal-pack {
     width: 100%;
@@ -32,37 +35,43 @@ body {
 }
 
 .purple {
+    border-bottom: 10px dotted;
     background-color: rgb(142, 9, 172);
+    color: rgb(244, 216, 92);
 }
 .centered-column #cinnamon {
     width: 400px;
 }
 
 .red {
+    border-bottom: 10px dotted;
     background-color: rgb(255, 59, 33);
+    color: rgb(255, 234, 0);
 }
 .centered-column #crunch {
     width: 400px;
 }
 
 .sunny {
+    border-bottom: 10px dotted;
     background-color: rgb(255, 217, 0);
+    color: rgb(72, 125, 248);
 }
 .centered-column #berries {
     width: 400px;
 }
 
 .orange {
+    border-bottom: 10px dotted;
     background-color: orange;
+    color: rgb(235, 247, 182);
 }
 .centered-column #peanut {
     width: 400px;
 }
 
 .button {
-    background-color: rgb(142, 9, 172);
-    color: white;
     text-decoration: none;
-    padding: 10px;
-    border-radius: 15px;
+    color: black;
+    display: inline-block;
 }
