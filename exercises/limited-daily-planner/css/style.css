@@ -56,18 +56,18 @@ body {
     border-radius: 20px;
     padding: 1px 10px;
     margin-left: 20px;
-    margin-bottom: 7px;
+    margin-bottom: 5px;
 }
 
 .completed {
     text-decoration: line-through;
-    margin-bottom: 7px;
+    margin-bottom: 5px;
 }
 
 .important {
     font-weight: bold;
     color: red;
-    margin-bottom: 7px;
+    margin-bottom: 5px;
 }
 
 .completed.important {
