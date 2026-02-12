@@ -72,41 +72,37 @@ body {
     text-decoration: none;
     color: black;
     display: inline-block;
-    font-size: 35px;
+    font-size: 25px;
     border-radius: 35px;
+    padding: 10px 40px;
 }
 
 .one {
     background-color: rgb(244, 52, 222);
     color: aliceblue;
-    padding: 20px 46px;
     border: 5px solid rgb(208, 0, 114);
 }
 
 .two {
     background-color: rgb(251, 255, 0);
     color: rgb(132, 0, 188);
-    padding: 20px 46px;
     border: 5px solid rgb(250, 143, 55);
 }
 
 .three {
     background-color: rgb(0, 247, 255);
     color: rgb(255, 0, 0);
-    padding: 20px 46px;
     border: 5px solid rgb(136, 55, 250);
 }
 
 .four {
     background-color: rgb(142, 0, 139);
     color: rgb(248, 244, 2);
-    padding: 20px 46px;
     border: 5px solid rgb(61, 0, 55);
 }
 
 .five {
     background-color: rgb(48, 255, 33);
     color: rgb(172, 120, 0);
-    padding: 20px 46px;
     border: 5px solid rgb(0, 145, 60);
 }
