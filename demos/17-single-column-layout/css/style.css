@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.single-column {
+    background-color: aqua;
+    width: 50%;
+    max-width: 800px;
+    margin: auto;
+}
