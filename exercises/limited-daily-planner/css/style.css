@@ -46,59 +46,8 @@ body {
     padding-block: 20px;
 }
 
-#morning .button {
-    text-decoration: none;
-    color: green;
-    display: inline-block;
-    font-weight: bold;
-    background-color: rgb(193, 248, 180);
-    border: 1px solid;
-    border-radius: 20px;
-    padding: 1px 10px;
-    margin-left: 20px;
-    margin-bottom: 5px;
-}
-
-#morning .completed {
-    text-decoration: line-through;
-    margin-bottom: 5px;
-}
-
-#morning .important {
-    font-weight: bold;
-    color: red;
-    margin-bottom: 5px;
-}
-
-#morning .completed.important {
-    background-color: rgb(150, 243, 9);
-    margin-right: 50px;
-}
-
-#afternoon .button {
-    text-decoration: none;
-    color: green;
-    display: inline-block;
-    font-weight: bold;
-    background-color: rgb(193, 248, 180);
-    border: 1px solid;
-    border-radius: 20px;
-    padding: 1px 10px;
-    margin-left: 20px;
-    margin-bottom: 5px;
-}
-
-#afternoon .completed {
-    text-decoration: line-through;
-    margin-bottom: 5px;
-}
-
-#afternoon .important {
-    font-weight: bold;
-    color: red;
-    margin-bottom: 5px;
-}
-
+#morning .button,
+#afternoon .button,
 #evening .button {
     text-decoration: none;
     color: green;
@@ -112,13 +61,22 @@ body {
     margin-bottom: 5px;
 }
 
+#morning .completed,
+#afternoon .completed,
 #evening .completed {
     text-decoration: line-through;
     margin-bottom: 5px;
 }
 
+#morning .important,
+#afternoon .important,
 #evening .important {
     font-weight: bold;
     color: red;
     margin-bottom: 5px;
+}
+
+#morning .completed.important {
+    background-color: rgb(150, 243, 9);
+    margin-right: 50px;
 }
