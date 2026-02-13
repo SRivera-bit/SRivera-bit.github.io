@@ -15,6 +15,7 @@ body {
     margin: auto;
     border: 7px solid rgb(138, 28, 28);
     padding: 20px;
+    margin-top: 60px;
 }
 
 .anime {
@@ -23,7 +24,8 @@ body {
 
 .center h1 {
     font-family: "IM Fell Great Primer SC", serif;
-    font-size: 45px;
+    font-size: 60px;
+    margin-top: auto;
 }
 
 .center h3 {
