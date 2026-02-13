@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Bonbon&family=Delius+Swash+Caps&family=Princess+Sofia&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: pink;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#column {
+    background-color: white;
+    width: 700px;
+    margin: auto;
+    border: 7px solid rgb(198, 17, 17);
+    padding: 20px;
+}
+
+#column h1 {
+    font-family: "Princess Sofia", cursive;
+    font-size: 40px;
+}
+
+#column h3 {
+    font-family: "Delius Swash Caps", cursive;
+    text-decoration: underline;
+}
+
+#valentine {
+    width: 645px;
+}
