@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Aubrey&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -18,15 +19,21 @@ body {
 
 .card {
     text-align: center;
-    border: 5px solid goldenrod;
+    border: 5px solid rgb(218, 153, 32);
     border-radius: 26px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
 }
 
 .card p {
     font-size: 15px;
+}
+
+.card h3 {
+    font-size: 30px;
+    text-decoration: underline;
+    font-family: "Aubrey", system-ui;
 }
 
 .profile {
