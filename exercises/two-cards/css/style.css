@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Princess+Sofia&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#single-column {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#card-container {
+    display: flex;
+    gap: 36px;
+}
+
+.card {
+    border: 5px solid rgb(255, 47, 0);
+    margin: 36px 0px;
+    padding: 46px 60px;
+    text-align: center;
+    background-color: rgb(253, 245, 235);
+}
+
+.card h3 {
+    font-family: "Princess Sofia", cursive;
+    font-size: 30px;
+    margin: 0px;
+    color: rgb(223, 3, 3);
+}
+
+.card p {
+    font-size: 20px;
+    margin: 24px 0px 0px;
+    color: rgb(218, 153, 32);
+}
+
+.horse {
+    width: 200px;
+}
+.inverted {
+    background-color: red;
+    border: 5px solid black;
+}
+
+.inverted p {
+    color: white;
+}
+
+.inverted h3 {
+    color: rgb(247, 187, 34);
+}
