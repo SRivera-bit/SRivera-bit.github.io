@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#layout {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    margin-top: 50px;
+}
+
+.side-by-side-container {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.side-by-side-container .image-container img {
+    width: 396px;
+    height: 550px;
+    object-fit: cover;
+}
+
+.side-by-side-container h2 {
+    font-size: 40px;
+    font-family: serif;
+}
+
+.side-by-side-container #margin {
+    margin-bottom: 30px;
+    font-weight: lighter;
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+a.button:hover {
+    background-color: rgb(218, 191, 177);
+    color: rgb(51, 36, 31);
+}
+
+.align {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 12px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#second-layout {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#second-layout h1 {
+    text-align: center;
+    font-family: serif;
+    font-size: 45px;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.cards img {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+}
+
+#card-one,
+#card-two,
+#card-three {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 18px;
+    flex: 1;
+}
+
+#card-one a,
+#card-two a,
+#card-three a {
+    text-decoration: none;
+    color: black;
+}
+
+#card-one:hover,
+#card-two:hover,
+#card-three:hover {
+    text-decoration: underline;
+}
+
+#breakfast {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+#breakfast:hover {
+    text-decoration: underline;
+}
+
+.image-container,
+.text-container {
+    flex: 1;
+}
+
+@media screen and (max-width: 500px) {
+    .side-by-side-container h2,
+    #second-layout h1 {
+        font-size: 25px;
+    }
+
+    .side-by-side-container,
+    .cards {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .side-by-side-container .image-container img {
+        max-width: 250px;
+        object-fit: cover;
+    }
+}
