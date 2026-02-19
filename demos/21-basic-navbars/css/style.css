@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar {
+    background: linear-gradient(
+        to right,
+        rgb(174, 0, 255),
+        skyblue
+    );
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: rgb(15, 44, 131);
+    padding: 24px;
+}
+
+#navbar a:hover {
+    text-decoration: underline;
+}
+
+#navbar img {
+    width: 150px;
+}
+
+#navbar #logo-container {
+    margin-right: auto;
+}
+
+#navbar .cta-button {
+    background-color: rgb(53, 28, 73);
+    color: rgb(163, 247, 247);
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+    margin-left: 24px;
+}
+
+#navbar .cta-button:hover {
+    background-color: rgb(65, 246, 237);
+    color: rgb(25, 1, 51);
+    border: 2px solid;
+}
+
+#layout {
+    width: 800px;
+    margin: 48px auto;
+    font-size: 24px;
+}
