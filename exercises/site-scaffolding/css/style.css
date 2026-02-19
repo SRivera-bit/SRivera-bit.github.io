@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Lavishly+Yours&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -29,9 +29,18 @@ body {
 
 #layout {
     text-align: center;
-    max-width: 800px;
+    max-width: 850px;
     margin-left: auto;
     margin-right: auto;
+}
+
+#layout h1 {
+    font-family: "Allura", cursive;
+    font-size: 65px;
+}
+
+#layout h2 {
+    font-weight: lighter;
 }
 
 #logo {
@@ -46,7 +55,7 @@ body {
 
 #navbar .cta-button {
     background-color: white;
-    color: rgb(9, 91, 232);
+    color: rgb(232, 42, 9);
     border-radius: 36px;
     padding: 16px 24px;
     font-size: 15px;
@@ -58,7 +67,11 @@ body {
 }
 
 #navbar .cta-button:hover {
-    background-color: rgb(9, 91, 232);
+    background-color: rgb(232, 42, 9);
     color: white;
     text-decoration: none;
+}
+
+#layout p {
+    text-align: left;
 }
