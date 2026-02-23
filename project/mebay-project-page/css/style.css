@@ -39,7 +39,7 @@ body {
     width: 100px;
 }
 #thumbnail-column img {
-    width: 105px;
+    width: 100%;
     margin-bottom: 8px;
     background-color: #e2e2e2;
     padding: 0px 15px;
@@ -61,7 +61,7 @@ body {
 }
 #featured-image-column img {
     width: 560px;
-    margin-left: 25px;
+    margin-left: 20px;
     margin-right: 20px;
 }
 
