@@ -7,6 +7,28 @@ body {
     font-family: sans-serif;
 }
 
+#title h1 {
+    text-align: center;
+    border-bottom: 1px solid #DDDDDD;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    font-size: 70px;
+    color: red;
+    letter-spacing: -10px;
+}
+
+#title #b {
+    color: rgb(0, 55, 255);
+}
+
+#title #y {
+    color: rgb(255, 183, 0);
+}
+
+#title #g {
+    color: rgb(4, 179, 4);
+}
+
 #layout {
     max-width: 1100px;
     margin: 48px auto;
@@ -77,7 +99,7 @@ body {
     margin-right: 7px;
 }
 
-#profile-link-size {
+#product-info-column #profile-link-size {
     font-size: 13px;
 }
 
@@ -85,6 +107,10 @@ body {
     border-bottom: 1px solid #cfcfcf;
     padding-bottom: 12px;
     
+}
+
+#product-info-column h1 {
+    margin-top: 0px;
 }
 
 #product-info-column h2 {
