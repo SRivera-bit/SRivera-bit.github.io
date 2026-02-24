@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Lavishly+Yours&family=Mountains+of+Christmas:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#layout {
+    width: 850px;
+    margin: 0px auto;
+}
+
+#navbar {
+    width: 850px;
+    margin: 0px auto;
+    background-color: bisque;
+    padding: 25px;
+    text-align: center;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+}
+
+#logo {
+    font-family: "Mountains of Christmas", serif;
+    margin-right: 100px;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+#nav .cta-button {
+    display: inline-block;
+    background-color: green;
+    color: beige;
+    border-radius: 25px;
+    padding: 15px 20px;
+    font-weight: bold;
+}
+
+#hero {
+    background-image: url(../images/hero1.jpeg);
+    background-size: cover;
+    background-position: center center;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-content h1 {
+    color: rgb(62, 19, 19);
+    background-color: rgba(222, 184, 135, 0.74);
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.hero-button {
+    display: inline-block;
+    text-decoration: none;
+    color: beige;
+    background-color: green;
+    border-radius: 40px;
+    padding: 15px 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#hero-content {
+    text-align: center;
+}
+
+#navbar .nav-links:hover {
+    text-decoration: underline;
+}
+
+#navbar .cta-button:hover,
+#hero .hero-button:hover {
+    background-color: brown;
+}
+
+#navbar #logo:hover {
+    color: brown;
+    text-decoration: none;
+}
