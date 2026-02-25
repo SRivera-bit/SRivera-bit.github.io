@@ -93,7 +93,7 @@ h3 {
     color: white;
 }
 
-#green {
+#g {
     color: greenyellow;
     text-decoration: none;
 }
@@ -114,6 +114,6 @@ h3 {
     color: brown;
 }
 
-#green:hover {
+#g:hover {
     text-decoration: underline;
 }
