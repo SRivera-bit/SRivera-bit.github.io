@@ -28,7 +28,7 @@ h1 {
 
 #side-by-side {
     display: flex;
-    margin: 50px;
+    margin-left: 50px;
 }
 
 #alignment {
