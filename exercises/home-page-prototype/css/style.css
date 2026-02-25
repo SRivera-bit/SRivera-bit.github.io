@@ -52,7 +52,8 @@ body {
     background-image: url(../images/hero1.jpeg);
     background-size: cover;
     background-position: center center;
-    height: 50vh;
+    width: 900px;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
