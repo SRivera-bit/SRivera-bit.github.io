@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Tac+One&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -10,4 +11,35 @@ body {
 #layout {
     width: 900px;
     margin: 0px auto;
+    text-align: center;
+    background-color: aqua;
+    margin-top: 20px;
+}
+
+h3 {
+    margin: 0px;
+}
+
+h1 {
+    font-family: "Tac One", sans-serif;
+    font-size: 70px;
+    margin: 0px;
+}
+
+#side-by-side {
+    display: flex;
+    margin: 50px;
+}
+
+#alignment {
+    margin-bottom: 50px;
+}
+
+.cta-button {
+    text-decoration: none;
+    background-color: blue;
+    color: azure;
+    padding: 15px 20px;
+    border-radius: 40px;
+    margin: 40px;
 }
