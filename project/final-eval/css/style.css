@@ -30,7 +30,7 @@ body {
     color: white;
 }
 
-h3 {
+#heading h3 {
     margin: 0px;
     color: white;
 }
@@ -39,6 +39,7 @@ h1 {
     font-family: "Tac One", sans-serif;
     font-size: 80px;
     margin: 0px;
+    margin-bottom: 15px;
     color: greenyellow;
 }
 
@@ -61,7 +62,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 200px;
+    gap: 250px;
     margin-bottom: 50px;
     background-color: rgba(215, 233, 250, 0.44);
 }
@@ -90,6 +91,10 @@ h2 {
 
 #alignment {
     margin-bottom: 50px;
+}
+
+h3 {
+    color: white;
 }
 
 #green {
