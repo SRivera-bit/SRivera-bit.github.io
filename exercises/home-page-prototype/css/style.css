@@ -9,12 +9,12 @@ body {
 }
 
 #layout {
-    width: 850px;
+    width: 900px;
     margin: 0px auto;
 }
 
 #navbar {
-    width: 850px;
+    width: 900px;
     margin: 0px auto;
     background-color: bisque;
     padding: 25px;
@@ -29,25 +29,30 @@ body {
 
 #logo {
     font-family: "Mountains of Christmas", serif;
-    margin-right: 100px;
+    margin-right: 230px;
     font-size: 40px;
     text-decoration: none;
 }
 
-#nav .cta-button {
+.cta-button,
+.hero-button {
     display: inline-block;
-    background-color: green;
+    text-decoration: none;
     color: beige;
-    border-radius: 25px;
-    padding: 15px 20px;
+    background-color: green;
+    border: 3px solid transparent;
+    border-radius: 40px;
+    padding: 10px 20px;
+    font-size: 25px;
     font-weight: bold;
+    margin: 50px;
 }
 
 #hero {
     background-image: url(../images/hero1.jpeg);
     background-size: cover;
     background-position: center center;
-    height: 30vh;
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,17 +66,6 @@ body {
     font-size: 35px;
 }
 
-.hero-button {
-    display: inline-block;
-    text-decoration: none;
-    color: beige;
-    background-color: green;
-    border-radius: 40px;
-    padding: 15px 20px;
-    font-size: 25px;
-    font-weight: bold;
-}
-
 #hero-content {
     text-align: center;
 }
@@ -80,9 +74,11 @@ body {
     text-decoration: underline;
 }
 
-#navbar .cta-button:hover,
+.cta-button:hover,
 #hero .hero-button:hover {
     background-color: brown;
+    border: 3px solid;
+    box-shadow: 5px 5px 5px inset rgb(97, 12, 12);
 }
 
 #navbar #logo:hover {
