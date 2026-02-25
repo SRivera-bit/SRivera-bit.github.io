@@ -95,7 +95,7 @@ h3 {
 
 #green {
     color: greenyellow;
-    text-decoration-line: underline;
+    text-decoration: none;
 }
 
 .cta-button {
@@ -112,4 +112,8 @@ h3 {
 .cta-button:hover {
     background-color: white;
     color: brown;
+}
+
+#green:hover {
+    text-decoration: underline;
 }
