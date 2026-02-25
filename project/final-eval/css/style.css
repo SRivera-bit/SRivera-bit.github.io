@@ -12,9 +12,9 @@ body {
     width: 850px;
     margin: 0px auto;
     text-align: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)),
-    url(../images/background.webp)
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),
+        url(../images/background.webp)
         ;
     background-size: cover;
     background-color: rgb(10, 144, 5);
@@ -48,8 +48,8 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 290px;
-    margin-bottom: 50px;
+    gap: 240px;
+    margin-bottom: 90px;
 }
 
 #info {
@@ -58,6 +58,10 @@ h2 {
 #info p {
     margin: 8px;
     color: white;
+}
+
+#info h2 {
+    color: greenyellow;
 }
 
 #alignment {
