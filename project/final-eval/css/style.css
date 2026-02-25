@@ -54,10 +54,6 @@ h2 {
     background-color: rgba(215, 233, 250, 0.44);
 }
 
-#side-by-side h1 {
-    color: black;
-}
-
 #teams-side-by-side {
     display: flex;
     justify-content: center;
