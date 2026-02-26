@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=DM+Serif+Text:ital@0;1&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -6,6 +6,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: rgb(185, 185, 185);
 }
 
 #hero {
@@ -23,16 +24,18 @@ body {
     color: white;
     font-size: 190px;
     padding: 150px;
+    font-weight: lighter;
 }
 
 #layout {
     max-width: 1200px;
-    margin: 40px auto;
+    margin: 48px auto;
     justify-content: center;
     align-items: center;
 }
 
 #layout h3 {
+    font-family: "DM Serif Text", serif;
     text-align: center;
     font-size: 35px;
 }
@@ -48,5 +51,5 @@ body {
 }
 
 .horizontal-masonry-gallery img {
-    height: 240px;
+    height: 249px;
 }
