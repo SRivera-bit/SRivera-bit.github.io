@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Javascript Part 1</title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="hero">
+            <h1 id="countdown">Loading Countdown...</h1>
+        </div>
+        <script type="text/javascript">
+            function convertToDaysLeft(milliseconds) {
+            return Math.floor(milliseconds / (1000 * 60 * 60 * 24));
+            }
+
+            function convertToHoursLeft(milliseconds) {
+            return Math.floor(
+            (milliseconds % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+            );
+            }
+
+            function convertToMinutesLeft(milliseconds) {
+            return Math.floor(
+            (milliseconds % (1000 * 60 * 60)) / (1000 * 60)
+            );
+            }
+
+            function convertToSecondsLeft(milliseconds) {
+            return Math.floor(
+            (milliseconds % (1000 * 60)) / 1000
+            );
+            }
+
+            function formatCountdownText(days, hours, minutes, seconds) {
+            return `${days}d ${hours}h ${minutes}m ${seconds}s left`;
+            }
+            
+        </script>
+    </body>
+</html>
