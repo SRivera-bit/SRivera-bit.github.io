@@ -6,7 +6,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background-color: rgb(185, 185, 185);
+    background-color: rgb(205, 190, 173);
 }
 
 #hero {
@@ -46,7 +46,7 @@ body {
     gap: 15px;
     justify-content: center;
     padding: 15px;
-    background-color: white;
+    background-color: rgb(241, 228, 221);
     border: 10px solid;
 }
 
