@@ -6,7 +6,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background-color: rgb(205, 190, 173);
+    background-color:rgb(205, 190, 173);
 }
 
 #hero {
@@ -17,13 +17,14 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    border-bottom: 10px solid rgb(241, 228, 221);
 }
 
 #hero h1 {
     font-family: "Cookie", cursive;
     color: white;
     font-size: 190px;
-    padding: 130px;
+    padding: 0px 130px;
     font-weight: lighter;
 }
 
