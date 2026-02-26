@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero {
+    background-image: url(../images/hero.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 80vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#hero h1 {
+    color: white;
+    font-size: 120px;
+    padding: 150px;
+}
+
+#layout {
+    max-width: 900px;
+    margin: 48px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.horizontal-masonry-gallery {
+    columns: 3 auto;
+    column-gap: 24px;
+}
+
+.horizontal-masonry-gallery img {
+    height: 200px;
+}
