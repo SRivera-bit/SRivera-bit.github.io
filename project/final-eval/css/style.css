@@ -54,11 +54,15 @@ h2 {
     background-color: rgba(215, 233, 250, 0.44);
 }
 
+#side-by-side img {
+    width: 360px;
+}
+
 #teams-side-by-side {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 250px;
+    gap: 300px;
     margin-bottom: 50px;
     background-color: rgba(215, 233, 250, 0.44);
 }
@@ -105,8 +109,9 @@ h3 {
     border: 3px solid;
     padding: 15px 20px;
     border-radius: 40px;
-    margin: 30px;
     font-weight: bold;
+    display: inline-block;
+    margin-left: 40px;
 }
 
 .cta-button:hover {
