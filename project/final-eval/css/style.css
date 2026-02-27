@@ -62,17 +62,25 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 300px;
+    gap: 50px;
     margin-bottom: 50px;
     background-color: rgba(215, 233, 250, 0.44);
 }
 
 #teams-side-by-side h2 {
     font-family: "Tac One", sans-serif;
-    font-size: 35px;
+    font-size: 45px;
     padding-bottom: 30px;
     color: white;
     margin: 0px;
+}
+
+#teams-side-by-side #left {
+    margin-left: 60px;
+}
+
+#teams-side-by-side #space {
+    padding-left: 200px;
 }
 
 #info {
