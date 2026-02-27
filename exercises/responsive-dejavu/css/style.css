@@ -133,7 +133,7 @@ body {
     }
 
     #nav #logo {
-        font-size: 30px;
+        font-size: 35px;
         margin: 0px;
     }
 
@@ -162,8 +162,12 @@ body {
         align-items: center;
     }
 
+    #nav #hover {
+        font-size: 16px;
+    }
+
     #nav #logo {
-        font-size: 25px;
+        font-size: 28px;
         margin: 0px;
     }
 
