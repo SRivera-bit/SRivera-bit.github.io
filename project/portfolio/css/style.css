@@ -82,7 +82,7 @@ body {
     flex: 1 1 200px;
     padding: 20px;
     border: 1px solid black;
-    background-color: white;
+    background-color: rgb(236, 236, 236);
 }
 #cards h3 {
     font-family: "Audiowide", sans-serif;
