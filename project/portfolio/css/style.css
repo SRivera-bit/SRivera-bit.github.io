@@ -6,7 +6,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background-color: rgb(174, 174, 174);
+    background-color: rgb(199, 199, 199);
 }
 
 #nav {
@@ -14,7 +14,7 @@ body {
     margin: 20px auto;
     text-align: center;
     background-color: blue;
-    border: 5px solid white;
+    border: 5px solid black;
     padding: 30px;
 }
 #nav .links {
@@ -61,7 +61,7 @@ body {
 #gallery {
     columns: 3 auto;
     column-gap: 20px;
-    background-color: grey;
+    background-color: rgb(147, 147, 147);
     padding: 10px;
 }
 #gallery img {
@@ -246,7 +246,7 @@ body {
 @media screen and (max-width: 700px) {
     #nav {
         width: 600px;
-        padding: 15px;
+        padding: 10px;
     }
     #nav .links {
         font-size: 18px;
@@ -313,10 +313,11 @@ body {
     }
 
     #gallery {
-        columns: 2 auto;
+        columns: 1 auto;
     }
     #gallery img {
-        width: 233px;
+        margin-top: 10px;
+        width: 460px;
     }
 
     #cards h3 {
