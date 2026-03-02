@@ -276,3 +276,162 @@ body {
         padding: 5px 15px;
     }
 }
+
+@media screen and (max-width: 600px) {
+    #nav {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        padding: 10px;
+    }
+    #nav .links {
+        font-size: 18px;
+    }
+
+    #layout {
+        width: 500px;
+    }
+    #hero {
+        height: 350px;
+    }
+    #hero h2 {
+        font-size: 30px;
+        padding: 0px 131px;
+    }
+    #hero #button {
+        font-size: 20px;
+        border: 3px solid;
+    }
+
+    #h-gallery {
+        font-size: 30px;
+    }
+
+    #gallery {
+        columns: 2 auto;
+    }
+    #gallery img {
+        width: 240px;
+    }
+
+    #cards h3 {
+        font-size: 25px;
+    }
+    #cards .cta-button {
+        padding: 5px 15px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #nav {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        padding: 10px;
+    }
+    #nav .links {
+        font-size: 18px;
+    }
+
+    #layout {
+        width: 400px;
+    }
+    #hero {
+        height: 350px;
+    }
+    #hero h2 {
+        font-size: 30px;
+        padding: 0px 81px;
+    }
+    #hero #button {
+        font-size: 20px;
+        border: 3px solid;
+    }
+
+    #h-gallery {
+        font-size: 30px;
+    }
+
+    #gallery {
+        columns: 1 auto;
+    }
+    #gallery img {
+        width: 400px;
+    }
+
+    #cards {
+        display: flex;
+        flex-direction: column;
+    }
+    #cards .card-content {
+        padding: 25px;
+        border: 1px solid grey;
+        justify-content: center;
+        align-items: center;
+    }
+    #cards h3 {
+        font-size: 40px;
+    }
+    #cards .cta-button {
+        font-size: 20px;
+        padding: 5px 20px;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #nav {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        padding: 10px;
+    }
+    #nav .links {
+        font-size: 18px;
+    }
+
+    #layout {
+        width: 300px;
+    }
+    #hero {
+        height: 350px;
+    }
+    #hero h2 {
+        font-size: 30px;
+        padding: 0px 31px;
+    }
+    #hero #button {
+        font-size: 20px;
+        border: 3px solid;
+    }
+
+    #h-gallery {
+        font-size: 30px;
+    }
+
+    #gallery {
+        columns: 1 auto;
+    }
+    #gallery img {
+        width: 300px;
+    }
+
+    #cards {
+        display: flex;
+        flex-direction: column;
+    }
+    #cards .card-content {
+        padding: 20px;
+        border: 1px solid grey;
+        justify-content: center;
+        align-items: center;
+    }
+    #cards h3 {
+        font-size: 30px;
+    }
+    #cards .cta-button {
+        font-size: 15px;
+        padding: 5px 3px;
+        margin-bottom: 30px;
+    }
+}
