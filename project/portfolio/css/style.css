@@ -10,10 +10,10 @@ body {
 
 #nav {
     width: 1200px;
-    margin: 48px auto;
+    margin: 20px auto;
     text-align: center;
     background-color: blue;
-    padding: 48px;
+    padding: 30px;
 }
 #nav .links {
     color: white;
@@ -24,7 +24,7 @@ body {
 
 #layout {
     width: 1200px;
-    margin: 48px auto;
+    margin: 0px auto;
     text-align: center;
 }
 
@@ -66,7 +66,7 @@ body {
 }
 #h-gallery {
     font-family: "Audiowide", sans-serif;
-    font-size: 40px;
+    font-size: 60px;
 }
 
 #cards {
@@ -77,7 +77,7 @@ body {
 #cards .card-content {
     flex: 1 1 200px;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid grey;
 }
 #cards h3 {
     font-family: "Audiowide", sans-serif;
@@ -117,14 +117,17 @@ body {
         height: 450px;
     }
     #hero h2 {
-        font-size: 34px;
-        padding: 0px 365px;
+        font-size: 40px;
+        padding: 0px 341px;
     }
     #hero #button {
-        font-size: 15px;
+        font-size: 20px;
         padding: 10px 30px;
     }
 
+    #h-gallery {
+        font-size: 50px;
+    }
     #gallery {
         columns: 3;
         column-gap: 10px;
@@ -146,23 +149,65 @@ body {
         height: 350px;
     }
     #hero h2 {
-        font-size: 32px;
-        padding: 0px 322px;
+        font-size: 35px;
+        padding: 0px 311px;
     }
     #hero #button {
         font-size: 20px;
         border: 3px solid;
     }
 
+    #h-gallery {
+        font-size: 40px;
+    }
     #gallery img {
         width: 290px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #nav {
+        width: 800px;
+    }
+    #layout {
+        width: 800px;
+    }
+    #hero {
+        height: 350px;
+    }
+    #hero h2 {
+        font-size: 32px;
+        padding: 0px 273px;
+    }
+    #hero #button {
+        font-size: 20px;
+        border: 3px solid;
+    }
+
+    #h-gallery {
+        font-size: 35px;
+    }
+    #gallery img {
+        width: 255px;
+    }
+
+    #cards h3 {
+        font-size: 25px;
+    }
+    #cards .cta-button {
+        padding: 5px 15px;
     }
 }
 
 @media screen and (max-width: 800px) {
     #nav {
         width: 700px;
+        padding: 20px;
     }
+    #nav .links {
+        font-size: 18px;
+    }
+
     #layout {
         width: 700px;
     }
@@ -170,15 +215,64 @@ body {
         height: 350px;
     }
     #hero h2 {
-        font-size: 32px;
-        padding: 0px 322px;
+        font-size: 30px;
+        padding: 0px 231px;
     }
     #hero #button {
         font-size: 20px;
         border: 3px solid;
     }
 
+    #h-gallery {
+        font-size: 30px;
+    }
     #gallery img {
-        width: 290px;
+        width: 220px;
+    }
+
+    #cards h3 {
+        font-size: 25px;
+    }
+    #cards .cta-button {
+        padding: 5px 15px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #nav {
+        width: 600px;
+        padding: 15px;
+    }
+    #nav .links {
+        font-size: 18px;
+    }
+
+    #layout {
+        width: 600px;
+    }
+    #hero {
+        height: 350px;
+    }
+    #hero h2 {
+        font-size: 30px;
+        padding: 0px 181px;
+    }
+    #hero #button {
+        font-size: 20px;
+        border: 3px solid;
+    }
+
+    #h-gallery {
+        font-size: 30px;
+    }
+    #gallery img {
+        width: 190px;
+    }
+
+    #cards h3 {
+        font-size: 25px;
+    }
+    #cards .cta-button {
+        padding: 5px 15px;
     }
 }
