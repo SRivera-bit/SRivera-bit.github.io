@@ -6,6 +6,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: rgb(174, 174, 174);
 }
 
 #nav {
@@ -13,6 +14,7 @@ body {
     margin: 20px auto;
     text-align: center;
     background-color: blue;
+    border: 5px solid white;
     padding: 30px;
 }
 #nav .links {
@@ -59,6 +61,8 @@ body {
 #gallery {
     columns: 3 auto;
     column-gap: 20px;
+    background-color: grey;
+    padding: 10px;
 }
 #gallery img {
     width: 100%;
@@ -77,7 +81,8 @@ body {
 #cards .card-content {
     flex: 1 1 200px;
     padding: 20px;
-    border: 1px solid grey;
+    border: 1px solid black;
+    background-color: white;
 }
 #cards h3 {
     font-family: "Audiowide", sans-serif;
@@ -161,7 +166,7 @@ body {
         font-size: 40px;
     }
     #gallery img {
-        width: 290px;
+        width: 285px;
     }
 }
 
@@ -188,7 +193,7 @@ body {
         font-size: 35px;
     }
     #gallery img {
-        width: 255px;
+        width: 250px;
     }
 
     #cards h3 {
@@ -227,7 +232,7 @@ body {
         font-size: 30px;
     }
     #gallery img {
-        width: 220px;
+        width: 215px;
     }
 
     #cards h3 {
@@ -266,7 +271,7 @@ body {
         font-size: 30px;
     }
     #gallery img {
-        width: 190px;
+        width: 185px;
     }
 
     #cards h3 {
@@ -311,7 +316,7 @@ body {
         columns: 2 auto;
     }
     #gallery img {
-        width: 240px;
+        width: 233px;
     }
 
     #cards h3 {
@@ -356,7 +361,8 @@ body {
         columns: 1 auto;
     }
     #gallery img {
-        width: 400px;
+        margin-top: 10px;
+        width: 360px;
     }
 
     #cards {
@@ -413,7 +419,8 @@ body {
         columns: 1 auto;
     }
     #gallery img {
-        width: 300px;
+        width: 275px;
+        margin-top: 5px;
     }
 
     #cards {
