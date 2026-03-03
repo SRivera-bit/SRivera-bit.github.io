@@ -321,11 +321,22 @@ body {
         width: 460px;
     }
 
+    #cards {
+        display: flex;
+        flex-direction: column;
+    }
+    #cards .card-content {
+        padding: 25px;
+        justify-content: center;
+        align-items: center;
+    }
     #cards h3 {
-        font-size: 25px;
+        font-size: 40px;
     }
     #cards .cta-button {
+        font-size: 20px;
         padding: 5px 15px;
+        margin-bottom: 40px;
     }
 }
 
@@ -373,7 +384,6 @@ body {
     }
     #cards .card-content {
         padding: 25px;
-        border: 1px solid grey;
         justify-content: center;
         align-items: center;
     }
@@ -431,7 +441,6 @@ body {
     }
     #cards .card-content {
         padding: 20px;
-        border: 1px solid grey;
         justify-content: center;
         align-items: center;
     }
