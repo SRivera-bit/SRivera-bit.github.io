@@ -388,10 +388,10 @@ body {
         align-items: center;
     }
     #cards h3 {
-        font-size: 40px;
+        font-size: 35px;
     }
     #cards .cta-button {
-        font-size: 20px;
+        font-size: 17px;
         padding: 5px 20px;
         margin-bottom: 40px;
     }
@@ -449,7 +449,7 @@ body {
     }
     #cards .cta-button {
         font-size: 15px;
-        padding: 5px 3px;
+        padding: 5px 8px;
         margin-bottom: 30px;
     }
 }
