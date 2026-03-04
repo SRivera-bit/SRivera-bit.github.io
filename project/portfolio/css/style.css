@@ -23,6 +23,11 @@ body {
     font-size: 20px;
 }
 
+#nav #logo {
+    font-family: "Audiowide", sans-serif;
+    font-size: 25px;
+}
+
 #layout {
     width: 1200px;
     margin: 0px auto;
@@ -39,11 +44,10 @@ body {
     align-items: center;
 }
 #hero h2 {
-    font-family: "Audiowide", sans-serif;
     color: white;
     font-size: 85px;
     background-color: rgba(0, 0, 255, 0.553);
-    padding: 0px 263px;
+    padding: 0px 309px;
 }
 #hero #button {
     color: blue;
@@ -102,6 +106,10 @@ body {
 #nav .links:hover {
     text-decoration: underline;
 }
+#nav #logo:hover {
+    color: rgb(70, 134, 251);
+    text-decoration: none;
+}
 #hero #button:hover {
     color: white;
     background-color: blue;
@@ -124,7 +132,7 @@ body {
     }
     #hero h2 {
         font-size: 45px;
-        padding: 0px 321px;
+        padding: 0px 346px;
     }
     #hero #button {
         font-size: 15px;
@@ -156,7 +164,7 @@ body {
     }
     #hero h2 {
         font-size: 40px;
-        padding: 0px 291px;
+        padding: 0px 313px;
     }
     #hero #button {
         font-size: 15px;
@@ -183,7 +191,7 @@ body {
     }
     #hero h2 {
         font-size: 35px;
-        padding: 0px 261px;
+        padding: 0px 279px;
     }
     #hero #button {
         font-size: 15px;
@@ -222,7 +230,7 @@ body {
     }
     #hero h2 {
         font-size: 35px;
-        padding: 0px 211px;
+        padding: 0px 229px;
     }
     #hero #button {
         font-size: 15px;
@@ -246,6 +254,8 @@ body {
 
 @media screen and (max-width: 700px) {
     #nav {
+        display: flex;
+        flex-direction: column;
         width: 600px;
         padding: 10px;
     }
@@ -261,7 +271,7 @@ body {
     }
     #hero h2 {
         font-size: 30px;
-        padding: 0px 181px;
+        padding: 0px 197px;
     }
     #hero #button {
         font-size: 13px;
@@ -302,7 +312,7 @@ body {
     }
     #hero h2 {
         font-size: 30px;
-        padding: 0px 131px;
+        padding: 0px 147px;
     }
     #hero #button {
         font-size: 13px;
@@ -359,7 +369,7 @@ body {
     }
     #hero h2 {
         font-size: 30px;
-        padding: 0px 81px;
+        padding: 0px 97px;
     }
     #hero #button {
         font-size: 13px;
@@ -416,7 +426,7 @@ body {
     }
     #hero h2 {
         font-size: 30px;
-        padding: 0px 31px;
+        padding: 0px 47px;
     }
     #hero #button {
         font-size: 13px;
